@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Something Big is Coming</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="particleCanvas"></canvas>
+
+    <div class="container">
+        <main class="card">
+            <h1>Coming <span class="highlight">Soon</span></h1>
+            <p>We're building the future of digital interaction. Get ready.</p>
+            
+            <div id="countdown">
+                <div class="time-box"><span id="days">00</span><small>Days</small></div>
+                <div class="time-box"><span id="hours">00</span><small>Hrs</small></div>
+                <div class="time-box"><span id="minutes">00</span><small>Min</small></div>
+            </div>
+
+            <form id="notifyForm">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Join the Waitlist</button>
+            </form>
+            <p id="message" class="hidden">You're on the list! ✨</p>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
